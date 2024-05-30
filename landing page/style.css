@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 13% auto;
+    background-color: rgba(255,235,222,255);
+}
+
+/* Header-section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+.brand:hover{
+    cursor: pointer;
+}
+
+.highlight {
+    color: #ff4500; 
+}
+
+nav {
+    display: flex;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+li, a, button {
+    text-decoration: none;
+}
+
+.nav-items li {
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav-items li a {
+    color: #717171;
+}
+
+.nav-items li a:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.login .sign-in {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.login .sign-up {
+    background-color: #f05218;
+    border: 1px solid #f05218;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.login .sign-in:hover{
+    color: #f05218;
+    cursor: pointer;
+
+}
+.login .sign-up:hover {
+    cursor: pointer;
+}
+
+
+/* Hero-section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.title-container {
+    max-width: 50%;
+}
+
+.tag-line {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+
+.title-btn {
+    background-color: #f05218;
+    border: 1px solid #f05218;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.title-btn:hover {
+    background-color: #d94212;
+    border-color: #d94212;
+}
+
+.title-image {
+    max-width: 350px;
+    
+    
+}
+
+.title-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    max-width: 400px;
+}    
+
+
+/* Service-section */
+.our-services {
+    margin-top: 100px;
+    height: 500px;
+}
+
+.our-services .service-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.our-services .service-card .card {
+    position: relative;
+    height: 180px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+
+}
+.service-card .card .service-image img {
+    width: 100%;
+    height: auto;
+}
+.our-services .service-card .card .service-image{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px);
+    opacity: 0.9;
+    z-index: 1;
+    
+}
+
+.service-card .card:hover {
+    height: 180px;
+    width: 300px;
+    background-color: #F57B51;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 20%);
+    cursor: pointer;
+}
+
+.service-card .card h2 {
+    color: #fc6634;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+    font-weight: 1000;
+    text-shadow: 2px 2px 4px white
+}
+
+.service-card .card:hover h2 {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.service-card .card p {
+    color: #fcf8f8;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    text-shadow: 2px 2px 4px black;
+}
+
+.service-card .card:hover p {
+    color: #FFB99A;
+    font-weight: 500;
+}
+
+/* Menu-section */
+.our-menu {
+    margin-top: 0px;
+    height: 500px;
+    width: 1200px;
+}
+.menu-card .card {
+    margin-right: 20px;
+}
+
+.menu-card .card h2 {
+    color: #fff;
+    text-shadow: 2px 2px 4px #F57B51
+}
+.menu-card .card p {
+    color: #fff;
+    text-shadow: 2px 2px 4px black
+}
+
+
+
