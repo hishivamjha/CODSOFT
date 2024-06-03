@@ -231,11 +231,12 @@ li,a,button {
 
 .project-section .card {
     position: relative;
-    height: 250px;
+    height: 220px;
     width: 380px;
     border-radius: 20px;
     text-align: center;
     overflow: hidden;
+    margin-right:25px;
 }
 
 
